@@ -31,6 +31,7 @@ jobs:
         repo: dev-blog/persist-metrics-lambda
         region: eu-west-1
         tags: latest
-        path: './persist-metrics-lambda/'
+        path: './persist-metrics-lambda'
+        dockerfile: './persist-metrics-lambda/Dockerfile'
         create_repo: false
         set_repo_policy: false
