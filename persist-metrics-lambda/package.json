@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "prepare": "tsc",
-    "build": "tsc",
+    "build": "npx tsc",
     "start": "ts-node src/index.ts"
   },
   "keywords": [],
@@ -17,4 +16,3 @@
   },
   "description": "simple lambda that saves metrics from my blog access logs to s3"
 }
-
