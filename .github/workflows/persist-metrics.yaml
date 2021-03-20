@@ -32,6 +32,5 @@ jobs:
         region: eu-west-1
         tags: latest
         path: './persist-metrics-lambda'
-        create_repo: true
-        set_repo_policy: true
-        repo_policy_file: repo-policy.json
+        create_repo: false
+        set_repo_policy: false
