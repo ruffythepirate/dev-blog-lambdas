@@ -14,5 +14,8 @@
       "pre-commit": "pretty-quick --staged"
     }
   },
-  "description": "simple lambda that saves metrics from my blog access logs to s3"
+  "description": "simple lambda that saves metrics from my blog access logs to s3",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
 }
