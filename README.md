@@ -1,3 +1,5 @@
+![Node.js CI](https://github.com/ruffythepirate/persist-metrics-lambda/workflows/Node.js%20CI/badge.svg)
+
 # Dev-Blog Lambdas
 
 [dev-blog](http://dev-blog.net) is my developer blog. These lambdas are used to perform different tasks related to this blog.
