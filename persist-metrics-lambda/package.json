@@ -1,0 +1,20 @@
+{
+  "name": "persist-metrics-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "tsc",
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "Johan Ablett-Karlsson",
+  "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "description": "simple lambda that saves metrics from my blog access logs to s3"
+}
+

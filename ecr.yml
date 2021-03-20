@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >
+  Docker repository for lambdas
+
+  Creates an ECR to which images can be pushed.
+
+Parameters:
+  RepositoryName:
+    Type: String
+    Default: dev-blog/persist-metrics-lambda
+    Description: Name of the repository that should be pushed.
+
+Resources:
+  ImageECR:
+    Type: AWS::ECR::Repository
+    Properties:
+      RepositoryName: !Ref RepositoryName
