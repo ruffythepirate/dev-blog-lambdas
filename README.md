@@ -1,4 +1,4 @@
-![Node.js CI](https://github.com/ruffythepirate/persist-metrics-lambda/workflows/persist-metrics/badge.svg)
+![persist-metrics](https://github.com/ruffythepirate/dev-blog-lambdas/workflows/persist-metrics/badge.svg)
 
 # Dev-Blog Lambdas
 
