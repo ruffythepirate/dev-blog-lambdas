@@ -37,7 +37,7 @@ function createReportForDate(date: string, datePaths: any, allPaths: any) {
         if(path === undefined) {
             allPaths[key] = [];
         }
-        (allPaths[key] as []).push({
+        (allPaths[key] as Metric[]).push({
             startTimeAsUnixTimestamp: pathToUnixTimestamp(path),
             value: datePaths[key].tot
         });
